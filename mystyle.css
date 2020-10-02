@@ -1,0 +1,12 @@
+body{
+    background-color: yellowgreen;
+    position: absolute;
+    font-family: Sans-serif;
+    font-size: 150%;
+}
+div.main{
+    margin: 0px 100px 0px 100px;
+}
+h1{
+    color: whitesmoke;
+}
