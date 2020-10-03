@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-CIC Website Change
+CIC Website  Landing page
+Copyright of this code belong to Ameen NA
 -->
 <html>
     <head>
-        <title>Capital Info Consultancy</title>
+        <title>Capital Info Creations</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="mystyle.css">
         <style>
             div.Contacts{
+                background-color: blanchedalmond;
                 width: 400px;
                 border-style: double;
                 padding: 0px 10px 10px 10px;
+                margin: 15px;
             }
             table,th,td{
+                background-color: blanchedalmond;
                 border: 1px solid;
+            }
+            nav.navbar{
+                color: white !important;
+                background-color: blanchedalmond;
+                padding: 10px;
+                border-radius: 40px;
             }
             footer{
                 padding: 10px 50px 20px 50px;
                 color: white;
-                margin: 10px;
                 background-color: black;
+            }
+            div.main{
+                background-image: url("bg.jpg");
+            }
+            div.About{
+                margin: 50px;
+                padding: 10px;
+                background-color: blanchedalmond;
+                border-radius: 8px;
             }
         </style>
     </head>
     <body>
-        <div class="main">
-            <div class="navbar">
-                <a href="#"></a><img src="home.png" height="25" width="25" alt="Home"/></a> <a style="margin: 0px 10px 0px 10px;" href="services.html">Services</a><a style="margin: 0px 10px 0px 10px;" href="">Projects</a><a style="margin: 0px 10px 0px 10px;" href="career.html">Career</a><a style="margin: 0px 10px 0px 10px;" href="">Contact Us</a><a style="margin-left:500px" href="https://www.facebook.com/Capital-Info-Creations-1409990452566453"><img weight="25px" height="25px" src="fb.jpg"/></a> <a style="margin-left:10px" href="https://capitalinfocreations.blogspot.com/"><img weight="25px" height="25px" src="blog.png"/></a>
-            </div>
-            <div class="Heading" align="center"><h1>Welcome to Capital Info Consultancy</h1></div>
-            <div class="About"><h3>About</h3><p>We are leading IT Software and Consultancy firm located at Calicut. We have been in the field for last 5 years. We provide services in all budget varieties.</p>
+        <div class="main"> <!--Main Tag:Contain all the website-->
+            <nav class="navbar"> <!--This is the Navigation bar to all other pages of this website-->
+                <a href="#"></a><img src="home.jpg" height="25" width="25" alt="Home"/></a>
+                 <a style="margin: 0px 10px 0px 10px;" href="services.html">Services</a>
+                 <a style="margin: 0px 10px 0px 10px;" href="project.html">Projects</a>
+                 <a style="margin: 0px 10px 0px 10px;" href="career.html">Career</a>
+                 <a style="margin: 0px 10px 0px 10px;" href="contact.html">Subscribe Us</a>
+                 <a style="margin-left:500px" href="https://www.facebook.com/Capital-Info-Creations-1409990452566453"><img weight="25px" height="25px" src="fb.jpg"/></a> 
+                 <a style="margin-left:10px" href="https://capitalinfocreations.blogspot.com/"><img weight="25px" height="25px" src="blog.png"/></a>
+            </nav>
+            <div class="Heading" align="center"><h1><i><font style="font-size:40px;">Welcome to</font><br/>Capital Info Creations</i></h1></div>
+            <div class="About"><h3 align="center">About</h3><article><blockquote cite="www.infobhan.net">We are leading IT Software and Consultancy firm located at Calicut. We have been in the field for last 2 years. We provide services in all budget varieties. Across the country, we serve Small, Medium and Large scale Enterprises by providing services ranging from IT Infrastructure Solutions, IT Data center and Service Desk Outsourcing Operations, IT Infrastructure Repair and Maintenance Services, Customized Web Solutions, Email Solutions and more.<br/>
+                <br/><b>Vision<br/><br/></b>“Build and Maintain the IT best practices and processes”<br/>
+                <br/><b>Mission</b><br/><br/>
+                “ To provide products, services, training and solutions that are of international quality and standards, backed by full life cycle management and support, at lowest cost of ownership. ”</blockquote>
                     Out Major services are shown below,<br/>
                     <ol>
-                        <li>Could Services</li>
+                        <li>Online Services</li>
                         <li>IT Support</li>
                         <li>IT Infrastructural Planning</li>
-                        <li>Website Design, Development & Hosting</li>
-                        <li>Domain Purchase and Branding</li>
                         <li>Search Engine Optimization</li>
                         <li>Digital Marketing</li>
                     </ol>
-   
+                </article>
+            </div>
+            <div class="news"><!--New and events for future will be featured here-->
+                <h3 align="center">Latest updates</h3>
+                <marquee>&#128525; Our new eccomerse will be out soon!!.... &#128525;</marquee>
             </div>
             <center>
             <div class="Contacts" align="center">
-                <h3>Contacts</h3>Phone:<br/> <a href="tel:9496726009">+919496726009</a><br/> Email: <a href="mailto:developer@infobhan.cloud">developer@infobhan.cloud</a><br/>Address: <br/>Capital Info C <br/> Capital Cyber Park, Calicut
+                <h3>Contacts</h3>Phone:<br/> <a href="tel:9496726009">+919496726009</a><br/> Email: <a href="mailto:developer@infobhan.cloud">developer@infobhan.cloud</a><br/>Address: <br/>Capital Info C <br/> UL Cyber Park, Calicut
             </div></center>
             <div class="table" align="center">
-            <table><h2>Our Clients</h2>
+            <table><h3>Our Clients</h3>
                 <tbody>
                     <tr><th>
                     Sno:
@@ -66,13 +92,12 @@ CIC Website Change
                     
                 </tbody>
             </table>
-            </div>
-             
+            </div>   
         </div>
         <footer>
             <center>
                 Designed and developed by <a href="https://www.linkedin.com/in/ameen-n-a-08263017a/">Ameen N.A</a>
             </center>
-       </footer>
+       </footer> 
     </body>
 </html>

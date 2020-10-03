@@ -1,44 +1,56 @@
 <html>
     <head>
-        <title>Capital Info Consultancy</title>
+        <title>Capital Info Creations | Careers</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="mystyle.css">
-        <style>
-            #input{
-            height :40px;
-            width: 30%;
-            margin: 10px;
-        }
-        </style>
         
     </head>
     <body>
             
             <div class="main">
-                <div class="navbar">
-                    <a href="index.html"></a><img src="home.png" height="25" width="25" alt="Home"/></a> <a style="margin: 0px 10px 0px 10px;" href="services.html">Services</a><a style="margin: 0px 10px 0px 10px;" href="project.html">Projects</a><a style="margin: 0px 10px 0px 10px; color: black;" href="Careers">Career</a><a style="margin: 0px 10px 0px 10px;" href="contact.html">Contact Us</a><a style="margin-left:500px" href="https://www.facebook.com/Capital-Info-Creations-1409990452566453"><img weight="25px" height="25px" src="fb.jpg"/></a> <a style="margin-left:10px" href="https://capitalinfocreations.blogspot.com/"><img weight="25px" height="25px" src="blog.png"/></a>
-                </div>
-                   <div class="heading" align="center"><h1>Submit Your Resume</h1></div> 
-                   <div class="form">
+                <nav class="navbar">
+                    <a href="index.html"><img src="home.jpg" height="25" width="25" alt="Home"/></a>
+                     <a style="margin: 0px 10px 0px 10px;" href="services.html">Services</a>
+                     <a style="margin: 0px 10px 0px 10px;" href="project.html">Projects</a>
+                     <a style="margin: 0px 10px 0px 10px; color: black;" href="#">Career</a>
+                     <a style="margin: 0px 10px 0px 10px;" href="contact.html">Subscribe Us</a>
+                     <a style="margin-left:500px" href="https://www.facebook.com/Capital-Info-Creations-1409990452566453"><img weight="25px" height="25px" src="fb.jpg"/></a> 
+                     <a style="margin-left:10px" href="https://capitalinfocreations.blogspot.com/"><img weight="25px" height="25px" src="blog.png"/></a>
+                </nav>
+                   <div class="heading"><h2><i>Submit Your Resume</i></h2></div> 
+                   <form name="myform" class="form" action="submited.html">
                        <label>
                            Name:
-                       </label>
+                       </label><br/>
                        <input id="input" type="text" name="fname" placeholder="First Name" pattern="[a-z]"/>
                        <input id="input" type="text" name="sname" placeholder="Second Name" pattern="[a-z]"/><br/>
+                       <label>
+                           Email:<br/>
+                       </label>
+                       <input id="input" type="email" name="email" placeholder="Enter Email..."/><br/>
                        <labe>
                            Age:
-                       </labe>
-                       <input id="input" style="margin-left: 30px;" type="number" name="sname" placeholder="Age" pattern="[0-9]{18,}"/>
+                       </labe><br/>
+                       <input id="input" type="number" name="sname" placeholder="Age" pattern="[0-9]{18,}"/>
                       <br/> <labe>
-                            Qualification:
-                        </labe>
-                        <input id="input" type="text" name="Qualification" placeholder="Top educational status"/>
+                            Qualifications:
+                        </labe><br/>
+                        <select id="input" ="Qualification" placeholder="Top educational status">
+                            <option>B.Tech/B.E/BS</option>
+                            <option>B.Sc/BCA</option>
+                            <option>M.Tech/MS</option>
+                            <option>MCA</option>
+                            <option>M.Sc</option>
+                            <option>MBA/BBA</option>
+                            <option>Non Technical Background</option>
+                        </select>
                        <br/> <label>
                             Resume:
-                        </label>
-                        <input id="input" type="file" name="file" placeholder="Upload resume"/>
-                   </div>
+                        </label></br>
+                        <input id="input" type="file" name="file" placeholder="Upload resume"/><br/>
+                        <input id="button" type="submit" name="submit" value="Submit"/>
+                   </form>
             </div>
     </body>
 </html>
